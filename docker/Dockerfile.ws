@@ -8,7 +8,7 @@ COPY ./package.json ./package.json
 COPY ./turbo.json ./turbo.json
 COPY ./apps/ws ./apps/ws
 
-RUN npm install
+RUN bun install
 RUN command
 
 
